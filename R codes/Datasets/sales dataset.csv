@@ -1,0 +1,117 @@
+Channel Type,Pay Type,Item Category,Item ID,Item code,Item Name,Employee ID,Employee Code,Employee Name,Employee Locations,Employee Country,Manager,Department,Sales Date,Sales_Cost,Sales_Amt,Sales_Qty,Sales Type,Customer ID,Customer Name,Customer Location,Customer Country
+Online,Debit,Electronics,10,P1,Laptop,1,E1,Sachin Tendulkar,AP,India,Manager 1,Sales,01-01-2012,80,100,10,Domestic,100,Ram,Mumbai,IN
+Online,Debit,Electronics,10,P1,Laptop,2,E2,Rahul Dravid,AP,India,Manager 1,Sales,02-01-2012,180,200,11,International,101,Ramesh,New York,US
+Online,Debit,Electronics,10,P1,Laptop,3,E3,Saurav,AP,India,Manager 1,Sales,03-01-2012,305,300,12,Domestic,102,Suresh,London,UK
+Online,Debit,Electronics,10,P1,Laptop,4,E4,Mohsin Khan,AP,India,Manager 1,Sales,04-01-2012,350,400,13,International,103,Naresh,Mumbai,IN
+Online,Credit,Electronics,14,P2,DVD,5,E5,Rahul Gandhi,HR,India,Manager 2,Sales,05-01-2012,400,500,14,International,104,Mahesh,New York,US
+Online,Credit,Electronics,14,P2,DVD,6,E6,Yuvraj Singh,HR,India,Manager 2,Sales,06-01-2012,550,600,15,Domestic,105,Rajesh,London,UK
+Online,Credit,Electronics,14,P2,DVD,7,E7,Viru Sehwag,HR,India,Manager 2,Sales,07-01-2012,680,700,16,International,106,Pawan,Mumbai,IN
+Online,Credit,Electronics,14,P2,DVD,8,E8,Gautam,HR,India,Manager 2,Sales,08-01-2012,700,800,17,International,107,Charan,Washington,US
+Online,Credit,Electronics,14,P2,DVD,9,E9,Zaheer Khan,HR,India,Manager 4,Accounting,09-01-2012,798,900,18,International,108,Prasad,Bristol,UK
+Direct,Cash,Cosmetics,20,P3,Powder,10,E10,Michael,VA,USA,Manager 5,Accounting,01-01-2012,876,1000,19,Domestic,109,Arvind,AP,IN
+Direct,Cash,Cosmetics,20,P3,Powder,11,E11,George,MD,USA,Manager 4,Accounting,02-01-2012,1020,1100,20,International,110,Arjun,Washington,US
+Direct,Cash,Cosmetics,20,P3,Powder,12,E12,Michel,NY,USA,Manager 5,Accounting,03-01-2012,988,1200,21,Domestic,100,Ram,Mumbai,IN
+Direct,Cash,Cosmetics,20,P3,Powder,13,E13,Steve,VA,USA,Manager 4,Accounting,04-01-2012,100,100,22,Domestic,101,Ramesh,New York,US
+Direct,Cash,Cosmetics,20,P3,Powder,14,E14,Glenn Mcgrath,MD,USA,Manager 5,Accounting,05-01-2012,200,200,23,International,102,Suresh,London,UK
+Direct,Cheque,Cosmetics,24,P4,Soap,15,E15,Bret Lee,NY,USA,Manager 4,Accounting,06-01-2012,300,300,24,Domestic,103,Naresh,Mumbai,IN
+Direct,Cheque,Cosmetics,24,P4,Soap,16,E16,Mark Waugh,VA,USA,Manager 5,Accounting,07-01-2012,400,400,25,International,104,Mahesh,New York,US
+Direct,Cheque,Cosmetics,24,P4,Soap,17,E17,Andy Marsh,MD,USA,Manager 4,Accounting,08-01-2012,500,500,26,International,105,Rajesh,London,UK
+Direct,Cheque,Cosmetics,24,P4,Soap,18,E18,Tim,NY,USA,Manager 5,Accounting,09-01-2012,550,600,27,Domestic,106,Pawan,Mumbai,IN
+Direct,Cheque,Cosmetics,24,P4,Soap,19,E19,Kenny,TX,UK,Manager 3,Finance,01-01-2012,680,700,28,International,107,Charan,Washington,US
+Post,FedeX,Cellular,30,P5,ATT,20,E20,Angela,IL,UK,Manager 3,Finance,02-01-2012,700,800,29,Domestic,108,Prasad,Bristol,UK
+Post,FedeX,Cellular,30,P5,ATT,21,E21,Simon,TX,UK,Manager 3,Finance,03-01-2012,798,900,30,Domestic,109,Arvind,AP,IN
+Post,FedeX,Cellular,30,P5,ATT,22,E22,Mark,IL,UK,Manager 3,Finance,01-01-2012,876,1000,31,International,110,Arjun,Washington,US
+Post,FedeX,Cellular,30,P5,ATT,23,E23,Geoff,WA,UK,Manager 3,Finance,02-01-2012,1020,1100,32,Domestic,100,Ram,Mumbai,IN
+Post,FedeX,Cellular,30,P5,ATT,24,E24,John,IL,UK,Manager 3,Finance,03-01-2012,988,1200,33,Domestic,101,Ramesh,New York,US
+Post,DHL,Cellular,38,P6,Verizon,25,E25,Jeffery,TX,UK,Manager 3,Finance,04-01-2012,100,1300,34,International,102,Suresh,London,UK
+Post,DHL,Cellular,38,P6,Verizon,26,E26,Javed,IL,UK,Manager 6,Audit,05-01-2012,1400,1400,35,Domestic,103,Naresh,Mumbai,IN
+Post,DHL,Cellular,38,P6,Verizon,27,E27,Hulk Hogan,WA,UK,Manager 7,Audit,06-01-2012,1500,1500,36,Domestic,104,Mahesh,New York,US
+Post,DHL,Cellular,38,P6,Verizon,28,E28,Mustaq Ahmed,WA,UK,Manager 8,Audit,07-03-2012,550,1500,37,International,106,Pawan,Mumbai,IN
+Post,DHL,Cellular,38,P6,Verizon,29,E29,Kaushik,TX,UK,Manager 9,Audit,08-03-2012,680,1600,38,Domestic,107,Charan,Washington,US
+Online,Debit,Electronics,10,P1,Laptop,1,E1,Sachin Tendulkar,AP,India,Manager 1,Sales,09-03-2012,700,100,10,Domestic,108,Prasad,Bristol,UK
+Online,Debit,Electronics,10,P1,Laptop,2,E2,Rahul Dravid,AP,India,Manager 1,Sales,03-03-2013,798,200,11,International,109,Arvind,AP,IN
+Online,Debit,Electronics,10,P1,Laptop,3,E3,Saurav,AP,India,Manager 1,Sales,02-03-2013,876,300,12,Domestic,110,Arjun,Washington,US
+Online,Debit,Electronics,10,P1,Laptop,4,E4,Mohsin Khan,AP,India,Manager 1,Sales,03-03-2013,1020,400,13,International,100,Ram,Mumbai,IN
+Online,Credit,Electronics,14,P2,DVD,5,E5,Rahul Gandhi,HR,India,Manager 2,Sales,04-03-2013,988,500,14,International,101,Ramesh,New York,US
+Online,Credit,Electronics,14,P2,DVD,6,E6,Yuvraj Singh,HR,India,Manager 2,Sales,05-03-2013,100,600,15,Domestic,102,Suresh,London,UK
+Online,Credit,Electronics,14,P2,DVD,7,E7,Viru Sehwag,HR,India,Manager 2,Sales,06-03-2013,700,700,16,International,103,Naresh,Mumbai,IN
+Online,Credit,Electronics,14,P2,DVD,8,E8,Gautam,HR,India,Manager 2,Sales,07-03-2013,800,800,17,International,106,Pawan,Mumbai,IN
+Online,Credit,Electronics,14,P2,DVD,9,E9,Zaheer Khan,HR,India,Manager 4,Accounting,08-03-2013,900,900,18,Domestic,107,Charan,Washington,US
+Direct,Cash,Cosmetics,20,P3,Powder,10,E10,Michael,VA,USA,Manager 5,Accounting,09-03-2013,1000,1000,19,International,108,Prasad,Bristol,UK
+Direct,Cash,Cosmetics,20,P3,Powder,11,E11,George,MD,USA,Manager 4,Accounting,03-03-2013,1100,1100,20,Domestic,109,Arvind,AP,IN
+Direct,Cash,Cosmetics,20,P3,Powder,12,E12,Michel,NY,USA,Manager 5,Accounting,02-03-2013,1200,1200,21,International,110,Arjun,Washington,US
+Direct,Cash,Cosmetics,20,P3,Powder,13,E13,Steve,VA,USA,Manager 4,Accounting,03-03-2013,100,100,22,International,100,Ram,Mumbai,IN
+Direct,Cash,Cosmetics,20,P3,Powder,14,E14,Glenn Mcgrath,MD,USA,Manager 5,Accounting,04-03-2013,550,200,23,Domestic,101,Ramesh,New York,US
+Direct,Cheque,Cosmetics,24,P4,Soap,15,E15,Bret Lee,NY,USA,Manager 4,Accounting,05-03-2013,680,300,24,International,102,Suresh,London,UK
+Direct,Cheque,Cosmetics,24,P4,Soap,16,E16,Mark Waugh,VA,USA,Manager 5,Accounting,06-03-2013,700,400,25,International,106,Pawan,Mumbai,IN
+Direct,Cheque,Cosmetics,24,P4,Soap,17,E17,Andy Marsh,MD,USA,Manager 4,Accounting,07-03-2013,798,500,26,International,107,Charan,Washington,US
+Direct,Cheque,Cosmetics,24,P4,Soap,18,E18,Tim,NY,USA,Manager 5,Accounting,08-03-2013,876,600,27,Domestic,108,Prasad,Bristol,UK
+Direct,Cheque,Cosmetics,24,P4,Soap,19,E19,Kenny,TX,USA,Manager 3,Finance,09-03-2013,1020,700,28,Domestic,109,Arvind,AP,IN
+Post,FedeX,Cellular,30,P5,ATT,20,E20,Angela,IL,USA,Manager 3,Finance,03-03-2013,988,800,29,International,110,Arjun,Washington,US
+Post,FedeX,Cellular,30,P5,ATT,21,E21,Simon,TX,USA,Manager 3,Finance,02-03-2013,100,900,30,Domestic,100,Ram,Mumbai,IN
+Post,FedeX,Cellular,30,P5,ATT,22,E22,Mark,IL,USA,Manager 3,Finance,03-03-2013,1000,1000,31,International,101,Ramesh,New York,US
+Post,FedeX,Cellular,30,P5,ATT,23,E23,Geoff,WA,USA,Manager 3,Finance,03-03-2013,550,1100,32,International,106,Pawan,Mumbai,IN
+Post,FedeX,Cellular,30,P5,ATT,24,E24,John,IL,USA,Manager 3,Finance,02-03-2013,680,1200,33,Domestic,107,Charan,Washington,US
+Post,DHL,Cellular,38,P6,Verizon,25,E25,Jeffery,TX,USA,Manager 3,Finance,03-03-2013,700,1300,34,International,108,Prasad,Bristol,UK
+Post,DHL,Cellular,38,P6,Verizon,26,E26,Javed,IL,USA,Manager 6,Audit,04-03-2013,798,1400,35,International,109,Arvind,AP,IN
+Post,DHL,Cellular,38,P6,Verizon,27,E27,Hulk Hogan,WA,USA,Manager 7,Audit,05-03-2013,876,1500,36,International,110,Arjun,Washington,US
+Post,DHL,Cellular,38,P6,Verizon,28,E28,Mustaq Ahmed,WA,USA,Manager 8,Audit,06-03-2013,1020,1500,37,Domestic,100,Ram,Mumbai,IN
+Post,DHL,Cellular,38,P6,Verizon,29,E29,Kaushik,TX,USA,Manager 9,Audit,07-03-2013,988,1600,38,International,101,Ramesh,New York,US
+Online,Debit,Electronics,10,P1,Laptop,1,E1,Sachin Tendulkar,AP,India,Manager 1,Sales,01-01-2014,80,100,10,Domestic,100,Ram,Mumbai,IN
+Online,Debit,Electronics,10,P1,Laptop,2,E2,Rahul Dravid,AP,India,Manager 1,Sales,02-01-2014,180,200,11,International,101,Ramesh,New York,US
+Online,Debit,Electronics,10,P1,Laptop,3,E3,Saurav,AP,India,Manager 1,Sales,03-01-2014,305,300,12,Domestic,102,Suresh,London,UK
+Online,Debit,Electronics,10,P1,Laptop,4,E4,Mohsin Khan,AP,India,Manager 1,Sales,04-01-2014,350,400,13,International,103,Naresh,Mumbai,IN
+Online,Credit,Electronics,14,P2,DVD,5,E5,Rahul Gandhi,HR,India,Manager 2,Sales,05-01-2014,400,500,14,International,104,Mahesh,New York,US
+Online,Credit,Electronics,14,P2,DVD,6,E6,Yuvraj Singh,HR,India,Manager 2,Sales,06-01-2014,550,600,15,Domestic,105,Rajesh,London,UK
+Online,Credit,Electronics,14,P2,DVD,7,E7,Viru Sehwag,HR,India,Manager 2,Sales,07-01-2014,680,700,16,International,106,Pawan,Mumbai,IN
+Online,Credit,Electronics,14,P2,DVD,8,E8,Gautam,HR,India,Manager 2,Sales,08-01-2014,700,800,17,International,107,Charan,Washington,US
+Online,Credit,Electronics,14,P2,DVD,9,E9,Zaheer Khan,HR,India,Manager 4,Accounting,09-01-2014,798,900,18,International,108,Prasad,Bristol,UK
+Direct,Cash,Cosmetics,20,P3,Powder,10,E10,Michael,VA,USA,Manager 5,Accounting,01-01-2014,876,1000,19,Domestic,109,Arvind,AP,IN
+Direct,Cash,Cosmetics,20,P3,Powder,11,E11,George,MD,USA,Manager 4,Accounting,02-01-2014,1020,1100,20,International,110,Arjun,Washington,US
+Direct,Cash,Cosmetics,20,P3,Powder,12,E12,Michel,NY,USA,Manager 5,Accounting,03-01-2014,988,1200,21,Domestic,100,Ram,Mumbai,IN
+Direct,Cash,Cosmetics,20,P3,Powder,13,E13,Steve,VA,USA,Manager 4,Accounting,04-01-2014,100,100,22,Domestic,101,Ramesh,New York,US
+Direct,Cash,Cosmetics,20,P3,Powder,14,E14,Glenn Mcgrath,MD,USA,Manager 5,Accounting,05-01-2014,200,200,23,International,102,Suresh,London,UK
+Direct,Cheque,Cosmetics,24,P4,Soap,15,E15,Bret Lee,NY,USA,Manager 4,Accounting,06-01-2014,300,300,24,Domestic,103,Naresh,Mumbai,IN
+Direct,Cheque,Cosmetics,24,P4,Soap,16,E16,Mark Waugh,VA,USA,Manager 5,Accounting,07-01-2014,400,400,25,International,104,Mahesh,New York,US
+Direct,Cheque,Cosmetics,24,P4,Soap,17,E17,Andy Marsh,MD,USA,Manager 4,Accounting,08-01-2014,500,500,26,International,105,Rajesh,London,UK
+Direct,Cheque,Cosmetics,24,P4,Soap,18,E18,Tim,NY,USA,Manager 5,Accounting,09-01-2014,550,600,27,Domestic,106,Pawan,Mumbai,IN
+Direct,Cheque,Cosmetics,24,P4,Soap,19,E19,Kenny,TX,USA,Manager 3,Finance,01-01-2014,680,700,28,International,107,Charan,Washington,US
+Post,FedeX,Cellular,30,P5,ATT,20,E20,Angela,IL,USA,Manager 3,Finance,02-01-2014,700,800,29,Domestic,108,Prasad,Bristol,UK
+Post,FedeX,Cellular,30,P5,ATT,21,E21,Simon,TX,USA,Manager 3,Finance,03-01-2014,798,900,30,Domestic,109,Arvind,AP,IN
+Post,FedeX,Cellular,30,P5,ATT,22,E22,Mark,IL,USA,Manager 3,Finance,01-01-2014,876,1000,31,International,110,Arjun,Washington,US
+Post,FedeX,Cellular,30,P5,ATT,23,E23,Geoff,WA,USA,Manager 3,Finance,02-01-2014,1020,1100,32,Domestic,100,Ram,Mumbai,IN
+Post,FedeX,Cellular,30,P5,ATT,24,E24,John,IL,USA,Manager 3,Finance,03-01-2014,988,1200,33,Domestic,101,Ramesh,New York,US
+Post,DHL,Cellular,38,P6,Verizon,25,E25,Jeffery,TX,USA,Manager 3,Finance,04-01-2014,100,1300,34,International,102,Suresh,London,UK
+Post,DHL,Cellular,38,P6,Verizon,26,E26,Javed,IL,USA,Manager 6,Audit,05-01-2014,1400,1400,35,Domestic,103,Naresh,Mumbai,IN
+Post,DHL,Cellular,38,P6,Verizon,27,E27,Hulk Hogan,WA,USA,Manager 7,Audit,06-01-2014,1500,1500,36,Domestic,104,Mahesh,New York,US
+Post,DHL,Cellular,38,P6,Verizon,28,E28,Mustaq Ahmed,WA,USA,Manager 8,Audit,07-03-2014,550,1500,37,International,106,Pawan,Mumbai,IN
+Post,DHL,Cellular,38,P6,Verizon,29,E29,Kaushik,TX,USA,Manager 9,Audit,08-03-2014,680,1600,38,Domestic,107,Charan,Washington,US
+Online,Debit,Electronics,10,P1,Laptop,1,E1,Sachin Tendulkar,AP,India,Manager 1,Sales,09-03-2014,700,100,10,Domestic,108,Prasad,Bristol,UK
+Online,Debit,Electronics,10,P1,Laptop,2,E2,Rahul Dravid,AP,India,Manager 1,Sales,03-03-2015,798,200,11,International,109,Arvind,AP,IN
+Online,Debit,Electronics,10,P1,Laptop,3,E3,Saurav,AP,India,Manager 1,Sales,02-03-2015,876,300,12,Domestic,110,Arjun,Washington,US
+Online,Debit,Electronics,10,P1,Laptop,4,E4,Mohsin Khan,AP,India,Manager 1,Sales,03-03-2015,1020,400,13,International,100,Ram,Mumbai,IN
+Online,Credit,Electronics,14,P2,DVD,5,E5,Rahul Gandhi,HR,India,Manager 2,Sales,04-03-2015,988,500,14,International,101,Ramesh,New York,US
+Online,Credit,Electronics,14,P2,DVD,6,E6,Yuvraj Singh,HR,India,Manager 2,Sales,05-03-2015,100,600,15,Domestic,102,Suresh,London,UK
+Online,Credit,Electronics,14,P2,DVD,7,E7,Viru Sehwag,HR,India,Manager 2,Sales,06-03-2015,700,700,16,International,103,Naresh,Mumbai,IN
+Online,Credit,Electronics,14,P2,DVD,8,E8,Gautam,HR,India,Manager 2,Sales,07-03-2015,800,800,17,International,106,Pawan,Mumbai,IN
+Online,Credit,Electronics,14,P2,DVD,9,E9,Zaheer Khan,HR,India,Manager 4,Accounting,08-03-2015,900,900,18,Domestic,107,Charan,Washington,US
+Direct,Cash,Cosmetics,20,P3,Powder,10,E10,Michael,VA,USA,Manager 5,Accounting,09-03-2015,1000,1000,19,International,108,Prasad,Bristol,UK
+Direct,Cash,Cosmetics,20,P3,Powder,11,E11,George,MD,USA,Manager 4,Accounting,03-03-2015,1100,1100,20,Domestic,109,Arvind,AP,IN
+Direct,Cash,Cosmetics,20,P3,Powder,12,E12,Michel,NY,USA,Manager 5,Accounting,02-03-2015,1200,1200,21,International,110,Arjun,Washington,US
+Direct,Cash,Cosmetics,20,P3,Powder,13,E13,Steve,VA,USA,Manager 4,Accounting,03-03-2015,100,100,22,International,100,Ram,Mumbai,IN
+Direct,Cash,Cosmetics,20,P3,Powder,14,E14,Glenn Mcgrath,MD,USA,Manager 5,Accounting,04-03-2015,550,200,23,Domestic,101,Ramesh,New York,US
+Direct,Cheque,Cosmetics,24,P4,Soap,15,E15,Bret Lee,NY,USA,Manager 4,Accounting,05-03-2015,680,300,24,International,102,Suresh,London,UK
+Direct,Cheque,Cosmetics,24,P4,Soap,16,E16,Mark Waugh,VA,USA,Manager 5,Accounting,06-03-2015,700,400,25,International,106,Pawan,Mumbai,IN
+Direct,Cheque,Cosmetics,24,P4,Soap,17,E17,Andy Marsh,MD,USA,Manager 4,Accounting,07-03-2015,798,500,26,International,107,Charan,Washington,US
+Direct,Cheque,Cosmetics,24,P4,Soap,18,E18,Tim,NY,USA,Manager 5,Accounting,08-03-2015,876,600,27,Domestic,108,Prasad,Bristol,UK
+Direct,Cheque,Cosmetics,24,P4,Soap,19,E19,Kenny,TX,USA,Manager 3,Finance,09-03-2015,1020,700,28,Domestic,109,Arvind,AP,IN
+Post,FedeX,Cellular,30,P5,ATT,20,E20,Angela,IL,USA,Manager 3,Finance,03-03-2015,988,800,29,International,110,Arjun,Washington,US
+Post,FedeX,Cellular,30,P5,ATT,21,E21,Simon,TX,USA,Manager 3,Finance,02-03-2015,100,900,30,Domestic,100,Ram,Mumbai,IN
+Post,FedeX,Cellular,30,P5,ATT,22,E22,Mark,IL,USA,Manager 3,Finance,03-03-2015,1000,1000,31,International,101,Ramesh,New York,US
+Post,FedeX,Cellular,30,P5,ATT,23,E23,Geoff,WA,USA,Manager 3,Finance,03-03-2015,550,1100,32,International,106,Pawan,Mumbai,IN
+Post,FedeX,Cellular,30,P5,ATT,24,E24,John,IL,USA,Manager 3,Finance,02-03-2015,680,1200,33,Domestic,107,Charan,Washington,US
+Post,DHL,Cellular,38,P6,Verizon,25,E25,Jeffery,TX,USA,Manager 3,Finance,03-03-2015,700,1300,34,International,108,Prasad,Bristol,UK
+Post,DHL,Cellular,38,P6,Verizon,26,E26,Javed,IL,USA,Manager 6,Audit,04-03-2015,798,1400,35,International,109,Arvind,AP,IN
+Post,DHL,Cellular,38,P6,Verizon,27,E27,Hulk Hogan,WA,USA,Manager 7,Audit,05-03-2015,876,1500,36,International,110,Arjun,Washington,US
+Post,DHL,Cellular,38,P6,Verizon,28,E28,Mustaq Ahmed,WA,USA,Manager 8,Audit,06-03-2015,1020,1500,37,Domestic,100,Ram,Mumbai,IN
+Post,DHL,Cellular,38,P6,Verizon,29,E29,Kaushik,TX,USA,Manager 9,Audit,07-03-2015,988,1600,38,International,101,Ramesh,New York,US
