@@ -21,3 +21,4 @@ ggplot(data = df1, aes(x=factor(df1$rooms),
                       y=df1$price, fill=factor(rooms)))+geom_boxplot()
 #histogram
 ggplot(data = df1, aes(x=price))+ geom_histogram()
+
