@@ -14,13 +14,15 @@ aq$Solar.R[is.na(aq$Solar.R)]<-mean(aq$Solar.R,na.rm = T)
 
 #Normalization
 nor <- function(x){(x-min(x)) / (max(x)-min(x)) }
+
 aq_norm <- as.data.frame(lapply(aq[c(1,2,3,4)], nor))
 aq[c(1,2,3,4)] <- aq_norm
 
+??attach
 attach(aq)
 
 #model
-MULTIREG <- lm(Ozone~Solar.R + Wind + Temp)
+MULTIREG <- lm(Ozone~.,data = aq_norm)
 summary(MULTIREG)
 attributes(MULTIREG)
 

@@ -5,6 +5,7 @@ library(ggplot2)
 #standerd deviation
 str(data)
 attach(data)
+View(data)
 data$Sales[is.na(data$Sales)] <- mean(data$Sales,na.rm = TRUE)
 data$Profit[is.na(data$Profit)] <- mean(data$Profit,na.rm = TRUE)
 data$Unit.Price[is.na(data$Unit.Price)] <- mean(data$Unit.Price,na.rm = TRUE)

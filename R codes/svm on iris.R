@@ -1,9 +1,11 @@
 data<-iris
+View(data)
 str(data)
 summary(data)
-install.packages("caTools")
+#install.packages("caTools")
 library(caTools)
 set.seed(123)
+View(data)
 split = sample.split(data$Species, SplitRatio = 0.75)
 training_set = subset(data, split == TRUE)
 test_set = subset(data, split == FALSE)
@@ -17,5 +19,6 @@ plot(classifier, training_set, Petal.Width ~ Petal.Length,
      slice = list(Sepal.Width = 3, Sepal.Length = 4))
 plot(classifier, test_set, Petal.Width ~ Petal.Length,
      slice = list(Sepal.Width = 3, Sepal.Length = 4))
+
 cm = table(test_set[,5], y_pred)
 cm

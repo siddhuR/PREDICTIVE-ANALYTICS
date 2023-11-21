@@ -4,11 +4,13 @@ print(getwd())
 #Setting the path of directory
 setwd("E:/Study/LPU/B.TECH/4th Year/7th Semester/INT234 - PREDICTIVE ANALYTICS/PREDICTIVE-ANALYTICS/R codes/Datasets")
 
-
+df <- read.csv("TITANIC 1.csv")
 summary(df)
 
 # Boxplot
 library(ggplot2)
+boxplot(factor(df$Survived),main='survived')
+boxplot(factor(df$Age),main='Age')
 ggplot(data = df, aes(x=factor(df$Survived),
                       y=df$Age))+geom_boxplot()
 

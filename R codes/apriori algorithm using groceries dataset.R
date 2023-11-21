@@ -5,11 +5,13 @@ library(datasets)
 library(arules)
 library(arulesViz)
 #explore the data
+data<-read.transactions()
 data(Groceries)
 class(Groceries)
 Groceries@itemInfo[1:20,]
 View(Groceries)
-
+inspect(Groceries
+        )
 apply(Groceries@data[,10:20],2,function(r) paste(Groceries@itemInfo[r,"labels"]
                                                  , collapse=", "))
 itemsets<-apriori(Groceries,parameter=list(minlen=1,maxlen=1,support=0.02,

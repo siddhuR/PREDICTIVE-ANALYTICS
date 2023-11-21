@@ -7,7 +7,7 @@ View(dataset)
 
 
 dataset$Purchased <- factor(dataset$Purchased, levels=c(0,1))
-install.packages('caTools')
+#install.packages('caTools')
 library(caTools)
 set.seed(123)
 split = sample.split(dataset$Purchased, SplitRatio = 0.75)
@@ -26,4 +26,8 @@ classifier = svm(formula = Purchased~.,
                  type = 'C-classification',
                  kernel = 'linear')
 
-y_pred = 
+y_pred = predict(classifier,test_set)
+View(y_pred)
+
+cm = table(test_set[,3],y_pred)
+cm
